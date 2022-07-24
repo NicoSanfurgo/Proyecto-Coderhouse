@@ -21,7 +21,11 @@
 }
 
 .body{
-    background-color:darkslategray;
+
+    background: #093028; 
+    background: -webkit-linear-gradient(to top, #237A57, #093028); 
+    background: linear-gradient(to top, #237A57, #093028); 
+
 }
 
 .lore {
@@ -157,7 +161,9 @@ legend{
 /* MULTIMEDIA */
 
 .multimedia{
-    background-color: darkslategrey;
+    background: #093028; 
+    background: -webkit-linear-gradient(to top, #237A57, #093028); 
+    background: linear-gradient(to top, #237A57, #093028); 
 }
 /* .multi1{
     box-shadow: #000 10px 15px 8px 2px;
@@ -194,6 +200,7 @@ legend{
 
 
 
+
 /* APLICANDO MEDIA QUERIES */
 
 @media (max-width:1090px) {
@@ -209,11 +216,11 @@ legend{
         "navegacion navegacion navegacion"
         "variado variado variado"
         "main main main"
-        "a a b b"
-        "c c d d"
-        "e e f f"
-        "g g h h"
-        "i i j j"
+        "a b"
+        "c d"
+        "e f"
+        "g h"
+        "i j"
         "foot foot foot";
         gap: 15px;
     }
@@ -260,12 +267,12 @@ legend{
         "navegacion navegacion navegacion"
         "variado variado variado"
         "main main main"
-        "a a b b"
-        "c c d d"
-        "e e f f"
-        "g g h h"
-        "i i j j"
-        "foot foot foot";
+        "a b"
+        "c d"
+        "e f"
+        "g h"
+        "i j"
+        "foot";
         gap: 15px;
     }
 }
@@ -277,12 +284,12 @@ legend{
         "navegacion navegacion navegacion"
         "variado variado variado"
         "main main main"
-        "a a b b"
-        "c c d d"
-        "e e f f"
-        "g g h h"
-        "i i j j"
-        "foot foot foot";
+        "a b"
+        "c d"
+        "e f"
+        "g h"
+        "i j"
+        "foot";
         gap: 15px;
     }
 }
