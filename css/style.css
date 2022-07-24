@@ -30,7 +30,7 @@
 
 .lore {
     background-color: #79766d;
-    border: 1px green solid;
+    border: 2px #093028 solid;
     color: #040404;
     font-size: larger;
     grid-area: info;
